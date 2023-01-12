@@ -80,78 +80,110 @@
       <h3 class="float-md-start mb-0">Portfolio</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">About</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#about">About</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#projects">Projects</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#contact">Contact</a>
       </nav>
     </div>
   </header>
     
-  <div class="banner-wrap vh-75 text-white">
-  
-
-    <main class="d-flex flex-column align-items-center justify-content-center h-75 text-center">
-      <h1 class="display-2">I am Aaron Protheroe</h1>
-      <p class="lead">Aspiring fullstack developer and pilot</p>
-      <img src="./assets/IMG_6717.JPG" class="profile_img">
-    </main>
+  <div class="banner-wrap text-white">
+    <div class="heading">
+      <h1>I am Aaron Protheroe</h1>
+    </div>
+    <div class="typed">
+      <p id="typed"></p>
+    </div>
+    <div class="img_container">
+      <img src="./assets/IMG_6717.JPG" alt="">
+    </div>
   </div>
   
-  <div class="about p-5">
+  <div class="about p-5" id="about">
     <div class="about_container">
 
       <div class="about_description">
+        <h4>About me</h4>
         <p>My name is Aaron protheroe. I am an aspiring fullstack developer with good
-          problem solving skills and a strong willingness to expand my skills and learn.
-          I started coding a little over a year ago and have since created many personal 
+          problem solving skills and a strong desire to learn and grow my skills in the 
+          field of software developemnt.I started coding a little over a year ago and have since created many personal 
           projects to showcase my skills. 
         </p>
       </div>
       <div class="about_skills">
         <h3>Skills:</h3>
-        <p>HTML  -   CSS  -  JavaScript</p>
-        <p>Python -  Java  -  MySQL</p>
-        <p>Git   -   React  -  NodeJS</p>
+        <div class="skills_container">
+          <div class="skill">
+            <h5>HTML</h5>
+          </div>
+          <div class="skill">
+            <h5>CSS</h5>
+          </div>
+          <div class="skill">
+            <h5>Javascript</h5>
+          </div>
+          <div class="skill">
+            <h5>Java</h5>
+          </div>
+          <div class="skill">
+            <h5>Python</h5>
+          </div>
+          <div class="skill">
+            <h5>Git</h5>
+          </div>
+          <div class="skill">
+            <h5>MySQL</h5>
+          </div>
+          <div class="skill">
+            <h5>Node.js</h5>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <h1 class="projects_title">Projects</h1>
+  <h1 class="projects_title" id="projects">Projects</h1>
 
   <div class="projects_section d-flex justify-content-center align-items-center">
     
-    <div class="project d-flex flex-column align-items-center">
-      <h5>Tesla landing page</h5>
-      <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/Tesla.png"/>
-    </div>
+    <a href="https://aaron-teslaclone.netlify.app/">
+      <div class="project d-flex flex-column align-items-center">
+        <h5>Tesla landing page</h5>
+        <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/Tesla.png"/>
+      </div>
+    </a>
 
-    <div class="project d-flex flex-column align-items-center">
-      <h5>Netflix landing page</h5>
-      <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_netflix.png"/>
-    </div>
+    <a href="https://aaron-netflixclone.netlify.app/">
+      <div class="project d-flex flex-column align-items-center">
+        <h5>Netflix landing page</h5>
+        <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_netflix.png"/>
+      </div>
+    </a>
 
-    <div class="project d-flex flex-column align-items-center">
-      <h5>Youtube landing page</h5>
-      <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_youtube.png"/>
-    </div>
+    <a href="https://youtubecloneaaron.netlify.app/">
+      <div class="project d-flex flex-column align-items-center">
+        <h5>Youtube landing page</h5>
+        <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_youtube.png"/>
+      </div>
+    </a>
 
-    <div class="project d-flex flex-column align-items-center">
-      <h5>Twitter landing page</h5>
-      <img src="https://res.cloudinary.com/ak-124210/image/upload/v1642434078/yjnzwmihmhghxkwnb6n9.png"/>
-    </div>
+    <a href="https://aaron-twitterclone.netlify.app/">
+      <div class="project d-flex flex-column align-items-center">
+        <h5>Twitter landing page</h5>
+        <img src="https://res.cloudinary.com/ak-124210/image/upload/v1642434078/yjnzwmihmhghxkwnb6n9.png"/>
+      </div>
+    </a>
 
-    <div class="project d-flex flex-column align-items-center">
-      <h5>Google keep clone</h5>
-      <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/gk_js.png"/>
-    </div>
-
-    <div class="project d-flex flex-column align-items-center vue">
-      <h5>Vue.js weather app</h5>
-      <img src="https://assets.stickpng.com/images/62a74f71223343fbc2207d04.png" class="vue"/>
-    </div>
+    <a href="https://googlekeepcloneaaron.netlify.app/">
+      <div class="project d-flex flex-column align-items-center">
+        <h5>Google keep clone</h5>
+        <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/gk_js.png"/>
+      </div>
+    </a>
 
   </div>
 
-  <div class="footer">
+  <div class="footer" id="contact">
     <div class="footer_container">
       <div class="footer_description">
         <p class="fw-semibold">You can reach out to me on LinkedIn or view my repos on Github</p>
@@ -174,6 +206,16 @@
       </div>
     </div>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('#typed', {
+      strings: ['Aspiring fullstack developer', 'Pilot', 'Software dev student'],
+      typeSpeed: 80,
+      loop: true,
+      showCursor: false
+    });
+  </script>
 
   </body>
 </html>
